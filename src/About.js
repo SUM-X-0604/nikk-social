@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const About = () => {
     return (
         <>
-            <section className='bg-gray-200 h-[100vh] '>
+            <section className='bg-gray-200 h-[100%] '>
 
                 {/* container */}
                 <div className=' py-8 '>
