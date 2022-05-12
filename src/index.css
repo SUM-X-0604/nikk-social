@@ -17,3 +17,29 @@ background-image: url(./assets/image-11.webp);
    background-size: cover;
    position: relative;
 }
+
+.stastics-container{
+    background: url(./assets/image-8.jpg);
+   height: 100vh;;
+   /* margin: auto; */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   z-index: -1;
+   background-attachment: fixed;   
+}
+
+.quotes-container{
+    background: url(./assets/image-12.jpg);
+   height: 100vh;;
+   /* margin: auto; */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   z-index: -1;
+   background-attachment: fixed;
+   
+}
+

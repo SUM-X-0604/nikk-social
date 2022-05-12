@@ -32,7 +32,7 @@ const Navbar = () => {
             <div className="navbar">
                 <div className="logo flex flex-col justify-center items-left sm:mx-4">
                     <h1
-                        className='text-2xl text-gray-400 font-bold '
+                        className='text-2xl text-gray-400 font-bold sm:text-3xl'
                         onClick={handleScroll}>
                         Nikk
                         <span className=' text-[#d49a35]'>
@@ -44,7 +44,7 @@ const Navbar = () => {
 
                 <div className={click ? 'list-group active' : 'list-group'}>
                     <Link
-                        className='nav-link'
+                        className='nav-link text-lg md:text-xl'
                         activeClass="active"
                         to="/"
                         spy={true}
@@ -55,7 +55,7 @@ const Navbar = () => {
                     </Link>
 
                     <Link
-                        className='nav-link'
+                        className='nav-link text-lg md:text-xl'
                         activeClass="active"
                         to="/"
                         spy={true}
@@ -67,7 +67,7 @@ const Navbar = () => {
 
 
                     <Link
-                        className='nav-link'
+                        className='nav-link text-lg md:text-xl'
                         activeClass="active"
                         to="/"
                         spy={true}
@@ -78,7 +78,15 @@ const Navbar = () => {
                     </Link>
 
                     <Link
-                        className='nav-link'
+                        className='nav-link text-lg md:text-xl'
+                        activeClass="active"
+                        to="/"
+                    >
+                        Registration
+                    </Link>
+
+                    <Link
+                        className='nav-link text-lg md:text-xl'
                         activeClass="active"
                         to="/"
                         spy={true}
