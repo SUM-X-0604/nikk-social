@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -7,10 +7,7 @@ import image1 from '../assets/image-2.jpg'
 import image2 from '../assets/image-7.jpg'
 import image3 from '../assets/image-5.jpg'
 
-
-
 const Carousel = () => {
-
     let settings1 = {
         dots: true,
         infinite: true,
@@ -78,10 +75,8 @@ const Carousel = () => {
                                     <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id qui aliquam officiis, ab veniam sed? Labore excepturi repellat voluptatem vero!</p>
                                 </div>
                             </div>
-
                         </Slider>
                     </div>
-
                 </div>
             </div>
         </>

@@ -11,7 +11,7 @@ const About = () => {
             <section className='bg-gray-900 h-[100%]'>
 
                 {/* container */}
-                <div className=' py-8 '>
+                <div className='py-8 '>
                     {/* header */}
                     <div className='flex flex-col'>
                         {/* headings */}
@@ -29,7 +29,7 @@ const About = () => {
                 </div>
 
                 {/* works */}
-                <div className='flex gap-6 justify-center items-center flex-col md:flex-row md:justify-evenly pb-6'>
+                <div className='flex gap-6 justify-center items-center flex-wrap md:justify-evenly pb-6'>
                     {/* first */}
                     <div className='flex justify-center flex-col items-center' >
                         <div className='bg-[#d49a3a] m-auto rounded-full w-28 h-28 relative'>

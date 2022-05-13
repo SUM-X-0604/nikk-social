@@ -1,4 +1,6 @@
 import About from "./components/About";
+import Blog from "./components/Blog";
+import Care from "./components/Care";
 import Causes from "./components/Causes";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
@@ -14,7 +16,8 @@ function App() {
       <Statistics />
       <Causes />
       <Quote />
-
+      <Care />
+      <Blog />
     </>
   );
 }

@@ -9,17 +9,21 @@ const Quote = () => {
                 <div className='quotes-container '>
 
                     <div className='w-[100%] h-[100%] absolute opacity-80 bg-[#000000b0] z-[-1] '>
-                        <div className='flex flex-col px-4 pt-16'>
+                        <div className='flex flex-col text-center px-4 pt-32 sm:pt-60 '>
                             {/* header */}
                             <div className='w-[100%]'>
-                                <span className='text-white text-lg font-sans'>Great Reviews for our services</span>
-                                <h1 className='text-[40px] text-white py-2 leading-normal'>Technical statistics</h1>
+                                <span className='text-gray-100 text-lg'>Nikk Social Walfare Foundation </span>
+                                <h1 className='text-[40px] text-white py-2 leading-normal capitalize'>the small act if kindness is worth more than the grandest intention</h1>
                             </div>
-                        </div>
 
-                        {/* container */}
-                        <div className='flex flex-wrap items-center justify-center py-8 relative'>
-
+                            {/* buttons */}
+                            <div className='flex flex-col items-center justify-center py-8'>
+                                <button className='text-lg text-gray-300 border-2 px-6 rounded-full py-2 font-mono bg-[#d49a35] hover:scale-110 transition duration-200 sm:text-xl sm:px-20 md:text-2xl md:px-28'>Join Us </button>
+                                <button className='cursor-pointer my-4 text-lg text-gray-300 border-2 px-4 rounded-full py-2 font-mono bg-[#0A686E]
+                                hover:scale-110 transition duration-200 sm:text-xl sm:px-20 md:text-2xl md:px-28'>
+                                    Become A Volunteer
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
