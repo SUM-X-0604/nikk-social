@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaTwitter, FaInstagramSquare } from 'react-icons/fa'
+import { FaFacebook, FaInstagramSquare } from 'react-icons/fa'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 // import { Link } from 'react-router-dom';
 // import Fade from 'react-reveal/Fade';
@@ -13,7 +13,7 @@ const Footer = () => {
         <>
             <footer className=' py-6' id='footer' >
 
-                <div className='py-4'>
+                <div className='py-4' data-aos="fade-up">
                     {/* intro */}
                     {/* links */}
 
@@ -26,7 +26,7 @@ const Footer = () => {
                         </a>
                         {/* Twitter */}
                         <a href="/" target="_blank" rel="noreferrer">
-                            <FaTwitter size={20} />
+                            <FaFacebook size={20} />
                         </a>
                         {/* Linkedin */}
                         <a href="/" target="_blank" rel="noreferrer">

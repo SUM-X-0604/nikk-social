@@ -7,10 +7,18 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Quote from "./components/Quote";
-import Statistics from "./components/Statistics";
+// import Statistics from "./components/Statistics";
 import Testimonial from "./components/Testimonial";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+import { useEffect } from "react";
+// ..
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  })
+
   return (
     <>
       <Navbar />

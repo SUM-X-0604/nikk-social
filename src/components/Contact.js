@@ -9,15 +9,15 @@ import { GoLocation } from 'react-icons/go'
 const Contact = () => {
 
     return (
-        <div className='bg-gray-900 pt-16 pb-8 lg:pt-24' id='contact'>
+        <div className='bg-gray-900 pt-16 pb-8 lg:pt-24' id='contact' >
             {/* contact heading */}
 
-            <div className='flex flex-col justify-center items-center '>
+            <div className='flex flex-col justify-center items-center ' data-aos="fade-up">
                 <h1 className='text-2xl font-bold text-gray-200 md:text-3xl'>Contact Us</h1>
                 <p className='text-md text-gray-500 font-semibold md:text-lg'>Get in touch</p>
             </div>
 
-            <div className='py-12 px-4 flex flex-col items-start md:flex-row md:items-center md:justify-center md:space-x-12 '>
+            <div className='py-12 px-4 flex flex-col items-start md:flex-row md:items-center md:justify-center md:space-x-12 ' data-aos="fade-up">
 
                 {/* contact links 1st */}
                 <div className='flex items-center px-4 pt-8'>

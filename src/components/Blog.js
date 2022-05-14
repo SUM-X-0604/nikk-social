@@ -15,7 +15,7 @@ const Blog = () => {
                     {/* header */}
                     <div>
                         <div className='py-8 flex flex-col items-center justify-center leading-10'>
-                            <h1 className=' text-2xl text-[#da8a00] font-sans font-semibold capital'>our blogs</h1>
+                            <h1 className=' text-2xl text-[#da8a00] font-sans font-semibold capitalize'>our blogs</h1>
                             <p className='py-2 capitalize text-[40px] text-[#39311D]'>recent from blog</p>
                         </div>
                     </div>
@@ -24,8 +24,8 @@ const Blog = () => {
                     <div className='flex flex-col md:flex-row md:justify-evenly'>
 
                         {/* 1st item */}
-                        <div className='flex flex-col  px-4 '>
-                            <img src={image1} alt="" />
+                        <div className='flex flex-col  px-4'>
+                            <img src={image1} alt="" data-aos="zoom-in-up" />
                             <div className='flex flex-col items-center text-center'>
                                 <p className='text-2xl capitalize pt-4 hover:text-[#d49a35]'>give food to homeless children</p>
                                 <p className='py-4 px-6 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id qui aliquam officiis, ab veniam sed? Labore  excepturi repellat voluptatem vero!</p>
@@ -36,7 +36,7 @@ const Blog = () => {
 
                         {/* 2nd item */}
                         <div className='flex flex-col  px-4 py-8 md:py-0'>
-                            <img src={image2} alt="" />
+                            <img src={image2} alt="" data-aos="zoom-in-up" />
                             <div className='flex flex-col items-center text-center'>
                                 <p className='text-2xl capitalize pt-4 hover:text-[#d49a35]'>give food to homeless children</p>
                                 <p className='py-4 px-6 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id qui aliquam officiis, ab veniam sed? Labore excepturi repellat voluptatem vero!</p>
@@ -46,7 +46,7 @@ const Blog = () => {
                         {/* 2nd item end */}
 
                         <div className='flex flex-col  px-4'>
-                            <img src={image3} alt="" />
+                            <img src={image3} alt="" data-aos="zoom-in-up" />
                             <div className='flex flex-col items-center text-center'>
                                 <p className='text-2xl capitalize pt-4 hover:text-[#d49a35]'>give food to homeless children</p>
                                 <p className='py-4 px-6 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id qui aliquam officiis, ab veniam sed? Labore excepturi repellat voluptatem vero!</p>

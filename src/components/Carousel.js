@@ -26,7 +26,7 @@ const Carousel = () => {
                     >
                         <Slider {...settings1}>
                             {/* first */}
-                            <div className='flex flex-wrap px-4 py-4'>
+                            <div className='flex flex-wrap px-4 py-4' data-aos="flip-up">
                                 <img src={image1} alt="" />
                                 <div className='bg-[#89926977] flex flex-col'>
                                     <p className='text-2xl capitalize pt-4 md:py-4 md:text-4xl'>give food to homeless children</p>
@@ -35,7 +35,7 @@ const Carousel = () => {
                                 </div>
                             </div>
                             {/* second */}
-                            <div className='flex flex-wrap px-4'>
+                            <div className='flex flex-wrap px-4' data-aos="flip-up">
                                 <img src={image2} alt="" />
                                 <div className=' bg-[#89926977] flex flex-col'>
                                     <p className='text-2xl capitalize pt-4 md:py-4 md:text-4xl'> education to homeless children</p>
@@ -45,7 +45,7 @@ const Carousel = () => {
                             </div>
 
                             {/* third */}
-                            <div className='flex flex-wrap px-4'>
+                            <div className='flex flex-wrap px-4' data-aos="flip-up">
                                 <img src={image3} alt="" />
                                 <div className=' bg-[#89926977] flex flex-col'>
                                     <p className='text-2xl capitalize pt-4 md:py-4 md:text-4xl'>give smile to homeless children</p>
@@ -55,7 +55,7 @@ const Carousel = () => {
                             </div>
 
                             {/* first */}
-                            <div className='flex flex-wrap px-4'>
+                            <div className='flex flex-wrap px-4' data-aos="flip-up">
                                 <img src={image1} alt="" />
                                 <div className=' bg-[#89926977] flex flex-col'>
                                     <p className='text-2xl capitalize pt-4 md:py-4 md:text-4xl'>give food to homeless children</p>
@@ -64,7 +64,7 @@ const Carousel = () => {
                                 </div>
                             </div>
                             {/* second */}
-                            <div className='flex flex-wrap px-4'>
+                            <div className='flex flex-wrap px-4' data-aos="flip-up">
                                 <img src={image2} alt="" />
                                 <div className=' bg-[#89926977] flex flex-col'>
                                     <p className='text-2xl capitalize pt-4 md:py-4 md:text-4xl'> education to homeless children</p>
@@ -74,7 +74,7 @@ const Carousel = () => {
                             </div>
 
                             {/* third */}
-                            <div className='flex flex-wrap px-4'>
+                            <div className='flex flex-wrap px-4' data-aos="flip-up">
                                 <img src={image3} alt="" />
                                 <div className=' bg-[#89926977] flex flex-col'>
                                     <p className='text-2xl capitalize pt-4 md:py-4 md:text-4xl'>give smile to homeless children</p>

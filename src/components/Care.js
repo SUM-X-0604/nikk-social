@@ -7,7 +7,7 @@ const Care = () => {
             <section className='h-[100%] py-20  bg-gray-900' id='care'>
 
                 {/* container */}
-                <div className='py-8 flex flex-col md:flex-row md:items-center md:justify-evenly max-w-[1140px] m-auto'>
+                <div className='py-8 flex flex-col md:flex-row md:items-center md:justify-evenly max-w-[1140px] m-auto' data-aos="fade-up">
 
                     {/* text */}
                     <div className='py-4 flex flex-col sm:px-4 md:w-[50%]'>
@@ -27,8 +27,8 @@ const Care = () => {
                     </div>
 
                     {/* image */}
-                    <div className='px-4 flex flex-col sm:px-8 md:w-[50%]'>
-                        <div className=''>
+                    <div className='px-4 flex flex-col sm:px-8 md:w-[50%]' data-aos="zoom-in-up">
+                        <div>
                             <img src={image} alt="" />
                         </div>
                     </div>

@@ -8,14 +8,14 @@ import { Link } from 'react-router-dom';
 const About = () => {
     return (
         <>
-            <section className='bg-gray-900 h-[100%] ' id='about'>
+            <section className='bg-gray-900 h-[100%]' id='about'>
 
                 {/* container */}
                 <div className='py-8 md:py-12 max-w-[1140px] m-auto'>
                     {/* header */}
                     <div className='flex flex-col'>
                         {/* headings */}
-                        <div className='md:py-8 md:text-center'>
+                        <div className='md:py-8 md:text-center' data-aos="fade-down">
                             <h1 className='py-2 capitalize text-sm md:text-xl text-[#d49a35] font-sans font-semibold px-4'>
                                 welcome to nikk social walfare foudation
                             </h1>
@@ -25,7 +25,7 @@ const About = () => {
                             </p>
                         </div>
                         {/* text */}
-                        <div className='text-[#aba8a8] px-4 py-4 leading-normal text-[16px] md:text-[18px]'>
+                        <div className='text-[#aba8a8] px-4 py-4 leading-normal text-[16px] md:text-[18px]' data-aos="fade-up">
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                             <br />
                             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
@@ -34,7 +34,7 @@ const About = () => {
                 </div>
 
                 {/* works */}
-                <div className='flex gap-6 justify-center items-center flex-wrap md:justify-evenly pb-6 '>
+                <div className='flex gap-6 justify-center items-center flex-wrap md:justify-evenly pb-6 ' data-aos="fade-up">
                     {/* first */}
                     <div className='flex justify-center flex-col items-center cursor-pointer' >
                         <div className='bg-[#d49a3a] m-auto rounded-full w-28 h-28 relative'>
