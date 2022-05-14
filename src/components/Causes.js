@@ -4,9 +4,9 @@ import Carousel from './Carousel'
 
 const Causes = () => {
     return (
-        <section className='my-8'>
-            <div className='py-8 flex flex-col items-center justify-center leading-10'>
-                <h1 className=' text-2xl text-[#da8a00] font-sans font-semibold capital'>our causes</h1>
+        <section className='pt-[50px]'>
+            <div className='pt-8 flex flex-col items-center justify-center leading-normal'>
+                <h1 className='text-3xl md:text-5xl text-[#da8a00] font-semibold capitalize'>our causes</h1>
 
                 <p className='py-2 capitalize text-[40px] text-[#39311D]'>our causes & helps</p>
             </div>

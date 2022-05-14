@@ -14,30 +14,33 @@ const Carousel = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
         pauseOnHover: true
     };
 
     return (
         <>
-            <div className='px-8'>
+            <section className='px-8 py-12'>
                 <div className='flex flex-col justify-between text-center md:px-40 lg:px-44'>
-                    <div className='flex flex-col'>
+                    <div className='flex flex-col'
+                    >
                         <Slider {...settings1}>
                             {/* first */}
-                            <div className='flex flex-wrap px-4'>
+                            <div className='flex flex-wrap px-4 py-4'>
                                 <img src={image1} alt="" />
-                                <div className=' bg-[#89926977] flex flex-col'>
-                                    <p className='text-2xl capitalize pt-4'>give food to homeless children</p>
-                                    <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id qui aliquam officiis, ab veniam sed? Labore excepturi repellat voluptatem vero!</p>
+                                <div className='bg-[#89926977] flex flex-col'>
+                                    <p className='text-2xl capitalize pt-4 md:py-4 md:text-4xl'>give food to homeless children</p>
+                                    <p className='p-8 md
+                                    text-md'> reprehenderit inventore laboriosam? Quam quos qui expedita? Provident non laudantium, repellat illo corrupti saepe cumque nesciunt pariatur itaque facere. Debitis aperiam minima ad pariatur veritatis doloribus ex, adipisci iusto voluptas est, ullam rerum cumque porro molestias dolorum ipsum vero. Cumque, aspernatur! lorem200</p>
                                 </div>
                             </div>
                             {/* second */}
                             <div className='flex flex-wrap px-4'>
                                 <img src={image2} alt="" />
                                 <div className=' bg-[#89926977] flex flex-col'>
-                                    <p className='text-2xl capitalize pt-4'> education to homeless children</p>
-                                    <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id qui aliquam officiis, ab veniam sed? Labore excepturi repellat voluptatem vero!</p>
+                                    <p className='text-2xl capitalize pt-4 md:py-4 md:text-4xl'> education to homeless children</p>
+                                    <p className='p-8 md
+                                    text-md'> reprehenderit inventore laboriosam? Quam quos qui expedita? Provident non laudantium, repellat illo corrupti saepe cumque nesciunt pariatur itaque facere. Debitis aperiam minima ad pariatur veritatis doloribus ex, adipisci iusto voluptas est, ullam rerum cumque porro molestias dolorum ipsum vero. Cumque, aspernatur!</p>
                                 </div>
                             </div>
 
@@ -45,8 +48,9 @@ const Carousel = () => {
                             <div className='flex flex-wrap px-4'>
                                 <img src={image3} alt="" />
                                 <div className=' bg-[#89926977] flex flex-col'>
-                                    <p className='text-2xl capitalize pt-4'>give smile to homeless children</p>
-                                    <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id qui aliquam officiis, ab veniam sed? Labore excepturi repellat voluptatem vero!</p>
+                                    <p className='text-2xl capitalize pt-4 md:py-4 md:text-4xl'>give smile to homeless children</p>
+                                    <p className='p-8 md
+                                    text-md'> reprehenderit inventore laboriosam? Quam quos qui expedita? Provident non laudantium, repellat illo corrupti saepe cumque nesciunt pariatur itaque facere. Debitis aperiam minima ad pariatur veritatis doloribus ex, adipisci iusto voluptas est, ullam rerum cumque porro molestias dolorum ipsum vero. Cumque, aspernatur!</p>
                                 </div>
                             </div>
 
@@ -54,16 +58,18 @@ const Carousel = () => {
                             <div className='flex flex-wrap px-4'>
                                 <img src={image1} alt="" />
                                 <div className=' bg-[#89926977] flex flex-col'>
-                                    <p className='text-2xl capitalize pt-4'>give food to homeless children</p>
-                                    <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id qui aliquam officiis, ab veniam sed? Labore excepturi repellat voluptatem vero!</p>
+                                    <p className='text-2xl capitalize pt-4 md:py-4 md:text-4xl'>give food to homeless children</p>
+                                    <p className='p-8 md
+                                    text-md'> reprehenderit inventore laboriosam? Quam quos qui expedita? Provident non laudantium, repellat illo corrupti saepe cumque nesciunt pariatur itaque facere. Debitis aperiam minima ad pariatur veritatis doloribus ex, adipisci iusto voluptas est, ullam rerum cumque porro molestias dolorum ipsum vero. Cumque, aspernatur!</p>
                                 </div>
                             </div>
                             {/* second */}
                             <div className='flex flex-wrap px-4'>
                                 <img src={image2} alt="" />
                                 <div className=' bg-[#89926977] flex flex-col'>
-                                    <p className='text-2xl capitalize pt-4'> education to homeless children</p>
-                                    <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id qui aliquam officiis, ab veniam sed? Labore excepturi repellat voluptatem vero!</p>
+                                    <p className='text-2xl capitalize pt-4 md:py-4 md:text-4xl'> education to homeless children</p>
+                                    <p className='p-8 md
+                                    text-md'> reprehenderit inventore laboriosam? Quam quos qui expedita? Provident non laudantium, repellat illo corrupti saepe cumque nesciunt pariatur itaque facere. Debitis aperiam minima ad pariatur veritatis doloribus ex, adipisci iusto voluptas est, ullam rerum cumque porro molestias dolorum ipsum vero. Cumque, aspernatur!</p>
                                 </div>
                             </div>
 
@@ -71,14 +77,15 @@ const Carousel = () => {
                             <div className='flex flex-wrap px-4'>
                                 <img src={image3} alt="" />
                                 <div className=' bg-[#89926977] flex flex-col'>
-                                    <p className='text-2xl capitalize pt-4'>give smile to homeless children</p>
-                                    <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id qui aliquam officiis, ab veniam sed? Labore excepturi repellat voluptatem vero!</p>
+                                    <p className='text-2xl capitalize pt-4 md:py-4 md:text-4xl'>give smile to homeless children</p>
+                                    <p className='p-8 md
+                                    text-md'> reprehenderit inventore laboriosam? Quam quos qui expedita? Provident non laudantium, repellat illo corrupti saepe cumque nesciunt pariatur itaque facere. Debitis aperiam minima ad pariatur veritatis doloribus ex, adipisci iusto voluptas est, ullam rerum cumque porro molestias dolorum ipsum vero. Cumque, aspernatur!</p>
                                 </div>
                             </div>
                         </Slider>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }

@@ -7,10 +7,10 @@ const Blog = () => {
     return (
         <>
 
-            <section className='py-10' id='blogs'>
+            <section className='py-20' id='blogs'>
 
                 {/* container */}
-                <div>
+                <div className='max-w-[1140px] m-auto'>
 
                     {/* header */}
                     <div>

@@ -6,7 +6,7 @@ const Navbar = () => {
     const [nav, setNav] = useState(false);
 
     const background = () => {
-        if (window.scrollY >= 60) {
+        if (window.scrollY >= Infinity) {
             setNav(true)
         } else {
             setNav(false)
@@ -46,7 +46,7 @@ const Navbar = () => {
                     <Link
                         className='nav-link text-lg md:text-xl'
                         activeClass="active"
-                        to="/"
+                        to="header"
                         spy={true}
                         smooth={true}
                         offset={-100}
@@ -57,7 +57,7 @@ const Navbar = () => {
                     <Link
                         className='nav-link text-lg md:text-xl'
                         activeClass="active"
-                        to="/"
+                        to="about"
                         spy={true}
                         smooth={true}
                         offset={-100}
@@ -69,7 +69,7 @@ const Navbar = () => {
                     <Link
                         className='nav-link text-lg md:text-xl'
                         activeClass="active"
-                        to="/"
+                        to="blogs"
                         spy={true}
                         smooth={true}
                         offset={-100}
@@ -80,7 +80,7 @@ const Navbar = () => {
                     <Link
                         className='nav-link text-lg md:text-xl'
                         activeClass="active"
-                        to="/"
+                        to="/registration"
                     >
                         Registration
                     </Link>
@@ -88,7 +88,7 @@ const Navbar = () => {
                     <Link
                         className='nav-link text-lg md:text-xl'
                         activeClass="active"
-                        to="/"
+                        to="contact"
                         spy={true}
                         smooth={true}
                         offset={-100}

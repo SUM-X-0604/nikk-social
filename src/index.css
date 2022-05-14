@@ -38,8 +38,8 @@ background-image: url(./assets/image-11.webp);
    background-repeat: no-repeat;
    background-size: cover;
    position: relative;
-   z-index: -1;
-   background-attachment: fixed;
-   
+   z-index: 100;
+   background-attachment: fixed;  
 }
+
 

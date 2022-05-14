@@ -4,10 +4,10 @@ import image from '../assets/image-14.jpg'
 const Care = () => {
     return (
         <>
-            <section className='h-[100%] bg-gray-900'>
+            <section className='h-[100%] py-20  bg-gray-900' id='care'>
 
                 {/* container */}
-                <div className='py-8 flex flex-col md:flex-row md:items-center md:justify-evenly'>
+                <div className='py-8 flex flex-col md:flex-row md:items-center md:justify-evenly max-w-[1140px] m-auto'>
 
                     {/* text */}
                     <div className='py-4 flex flex-col sm:px-4 md:w-[50%]'>

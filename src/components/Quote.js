@@ -12,13 +12,13 @@ const Quote = () => {
                         <div className='flex flex-col text-center px-4 pt-32 sm:pt-60 '>
                             {/* header */}
                             <div className='w-[100%]'>
-                                <span className='text-gray-100 text-lg'>Nikk Social Walfare Foundation </span>
-                                <h1 className='text-[40px] text-white py-2 leading-normal capitalize'>the small act if kindness is worth more than the grandest intention</h1>
+                                <span className='text-gray-100 text-lg md:text-xl'>Nikk Social Walfare Foundation </span>
+                                <h1 className='text-[40px] text-white py-2 leading-normal capitalize md:text-[44px]'>the small act if kindness is worth more than the grandest intention</h1>
                             </div>
 
                             {/* buttons */}
                             <div className='flex flex-col items-center justify-center py-8'>
-                                <button className='text-lg text-gray-300 border-2 px-6 rounded-full py-2 font-mono bg-[#d49a35] hover:scale-110 transition duration-200 sm:text-xl sm:px-20 md:text-2xl md:px-28'>Join Us </button>
+                                <button className='text-lg text-gray-300 border-2 px-6 rounded-full py-2 font-mono bg-[#d49a35] hover:scale-110 transition duration-200 sm:text-xl sm:px-20 md:text-2xl md:px-28 -z-0'>Join Us </button>
                                 <button className='cursor-pointer my-4 text-lg text-gray-300 border-2 px-4 rounded-full py-2 font-mono bg-[#0A686E]
                                 hover:scale-110 transition duration-200 sm:text-xl sm:px-20 md:text-2xl md:px-28'>
                                     Become A Volunteer
