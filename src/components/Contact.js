@@ -25,7 +25,7 @@ const Contact = () => {
                         <UilPhone className="h-8 w-10 text-blue-700" />
                     </div>
                     <div className='leading-6' >
-                        <a href="tel:7999001618" target='_blank' rel="noreferrer">
+                        <a href="tel:9406308546" target='_blank' rel="noreferrer">
                             <h1 className='text-xl font-bold text-gray-300'>Call Us</h1>
                             <p className='text-gray-500'>+91 9406308546</p>
                         </a>
@@ -43,7 +43,7 @@ const Contact = () => {
                         <BsWhatsapp className="h-8 w-10 text-blue-700" />
                     </div>
                     <div className='leading-6' >
-                        <a href="https://api.whatsapp.com/send?phone=7999001618" target='_blank' rel="noreferrer">
+                        <a href="https://api.whatsapp.com/send?phone=9406308546" target='_blank' rel="noreferrer">
                             <h1 className='text-xl font-bold text-gray-300'>Whatsapp</h1>
                             <p className='text-gray-500'>+91 9406308546</p>
                         </a>
@@ -60,7 +60,7 @@ const Contact = () => {
                         <AiOutlineMail className="h-8 w-10 text-blue-700" />
                     </div>
                     <div className='leading-6' >
-                        <a href="mailto:sumeet0604.sv@gmail.com" target='_blank' rel="noreferrer">
+                        <a href="mailto:support@nikksocial.in" target='_blank' rel="noreferrer">
                             <h1 className='text-xl font-bold text-gray-300'>Email</h1>
                             <p className='text-gray-500'>support@nikksocial.in</p>
                         </a>
