@@ -20,10 +20,6 @@ const Footer = () => {
                     {/* social media */}
                     <div className='py-6 px-8 flex justify-center flex-shrink-0 items-center space-x-16 sm:space-x-20 md:space-x-28 lg:space-x-36 text-black'>
 
-                        {/* Github */}
-                        {/* <a href="/" target="_blank" rel="noreferrer">
-                            <AiFillGithub size={20} />
-                        </a> */}
                         {/* Twitter */}
                         <a href="/" target="_blank" rel="noreferrer">
                             <FaFacebook size={20} />
