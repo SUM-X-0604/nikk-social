@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaInstagramSquare } from 'react-icons/fa'
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
+import { AiFillLinkedin } from 'react-icons/ai'
 // import { Link } from 'react-router-dom';
 // import Fade from 'react-reveal/Fade';
 // import Bounce from 'react-reveal/Bounce';
@@ -21,20 +21,22 @@ const Footer = () => {
                     <div className='py-6 px-8 flex justify-center flex-shrink-0 items-center space-x-16 sm:space-x-20 md:space-x-28 lg:space-x-36 text-black'>
 
                         {/* Github */}
-                        <a href="/" target="_blank" rel="noreferrer">
+                        {/* <a href="/" target="_blank" rel="noreferrer">
                             <AiFillGithub size={20} />
-                        </a>
+                        </a> */}
                         {/* Twitter */}
                         <a href="/" target="_blank" rel="noreferrer">
                             <FaFacebook size={20} />
                         </a>
+
+                        {/* instagram */}
+                        <a href="https://instagram.com/nikk_social_welfare_foundation?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer">
+                            <FaInstagramSquare size={20} />
+                        </a>
+
                         {/* Linkedin */}
                         <a href="/" target="_blank" rel="noreferrer">
                             <AiFillLinkedin size={20} />
-                        </a>
-                        {/* instagram */}
-                        <a href="/" target="_blank" rel="noreferrer">
-                            <FaInstagramSquare size={20} />
                         </a>
 
                     </div>
