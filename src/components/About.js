@@ -17,18 +17,23 @@ const About = () => {
                         {/* headings */}
                         <div className='md:py-8 md:text-center' data-aos="fade-down">
                             <h1 className='py-2 capitalize text-sm md:text-xl text-[#d49a35] font-sans font-semibold px-4'>
-                                welcome to nikk social walfare foudation
+                                welcome to Nikk Social Walfare Foudation
                             </h1>
 
-                            <p className='text-[#b0aa9c] px-4 text-2xl md:text-4xl md:leading-normal'>
+                            <p className='text-[#b0aa9c] px-4 text-2xl md:text-5xl md:leading-normal'>
                                 We Help Thousands of Children to Get Their Education
                             </p>
                         </div>
                         {/* text */}
-                        <div className='text-[#aba8a8] px-4 py-4 leading-normal text-[16px] md:text-[18px]' data-aos="fade-up">
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                        <div className='text-[#aba8a8] px-4 py-4 leading-normal text-[16px] md:text-[22px]' data-aos="fade-up">
+                            <p>Nikk Social Walfare Foudation, an Indian social development organization, is directly benefitting thousands of children and their families every year. We have several live welfare projects on education, healthcare, livelihood, and women’s empowerment in all over Chhattigarh.</p>
                             <br />
-                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                            <p>Nikk Social aims to build an equitable relationship of strength, sustenance and dignity between the cities and villages using the under-utilized urban material as a tool to trigger development with dignity, across the country.</p>
+                            <button className='my-4 text-lg text-gray-300 border-2 px-4 rounded-full py-2 font-mono bg-[#0A686E] hover:scale-110 transition duration-200 sm:text-xl sm:px-20 md:text-xl md:px-18'>
+                                <Link to='/about-us'>
+                                    Read More...
+                                </Link>
+                            </button>
                         </div>
                     </div>
                 </div>

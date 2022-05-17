@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Navbar.css'
-import { Link } from "react-scroll"
+import { Link } from 'react-scroll';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -30,7 +31,7 @@ const Navbar = () => {
     return (
         <div className={nav ? 'nav-container active ' : 'nav-container'}>
             <div className="navbar sm:pt-8">
-                <div className="logo flex flex-col justify-center items-left sm:mx-4 " data-aos="fade-down">
+                <div className="logo flex flex-col justify-center items-left sm:mx-4 cursor-pointer " data-aos="fade-down">
                     <h1
                         className='text-2xl text-gray-400 font-bold sm:text-3xl'
                         onClick={handleScroll}>
@@ -45,20 +46,18 @@ const Navbar = () => {
                 <div>
 
                     <div className={click ? 'list-group active ' : 'list-group'}>
-                        <Link
+                        <NavLink
                             className='nav-link text-lg md:text-xl'
-                            activeClass="active"
-                            to="header"
-                            spy={true}
-                            smooth={true}
-                            offset={-100}
-                            duration={500}>
+                            activeclass="active"
+                            to="/"
+
+                        >
                             Home
-                        </Link>
+                        </NavLink>
 
                         <Link
                             className='nav-link text-lg md:text-xl'
-                            activeClass="active"
+                            activeclass="active"
                             to="about"
                             spy={true}
                             smooth={true}
@@ -69,7 +68,7 @@ const Navbar = () => {
 
                         <Link
                             className='nav-link text-lg md:text-xl'
-                            activeClass="active"
+                            activeclass="active"
                             to="blogs"
                             spy={true}
                             smooth={true}
@@ -80,15 +79,18 @@ const Navbar = () => {
 
                         <Link
                             className='nav-link text-lg md:text-xl'
-                            activeClass="active"
-                            to="/registration"
-                        >
-                            Registration
+                            activeclass="active"
+                            to="causes"
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>
+                            Causes
                         </Link>
 
                         <Link
                             className='nav-link text-lg md:text-xl'
-                            activeClass="active"
+                            activeclass="active"
                             to="contact"
                             spy={true}
                             smooth={true}
