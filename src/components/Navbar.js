@@ -32,15 +32,18 @@ const Navbar = () => {
         <div className={nav ? 'nav-container active ' : 'nav-container'}>
             <div className="navbar sm:pt-8">
                 <div className="logo flex flex-col justify-center items-left sm:mx-4 cursor-pointer " data-aos="fade-down">
-                    <h1
-                        className='text-2xl text-gray-400 font-bold sm:text-3xl'
-                        onClick={handleScroll}>
-                        Nikk
-                        <span className=' text-[#d49a35]'>
-                            Social
-                        </span>
-                    </h1>
-                    <span className='text-gray-400 text-[12px]'>Walfare Foundation</span>
+                    <Link to="/">
+                        <h1
+                            className='text-2xl text-gray-400 font-bold sm:text-3xl'
+                            onClick={handleScroll}
+                        >
+                            Nikk
+                            <span className=' text-[#d49a35]'>
+                                Social
+                            </span>
+                        </h1>
+                        <span className='text-gray-400 text-[12px]'>Walfare Foundation</span>
+                    </Link>
                 </div>
 
                 <div>
@@ -50,6 +53,7 @@ const Navbar = () => {
                             className='nav-link text-lg md:text-xl'
                             activeclass="active"
                             to="/"
+                            onClick={handleScroll}
 
                         >
                             Home
@@ -91,7 +95,9 @@ const Navbar = () => {
                         <NavLink
                             className='nav-link text-lg md:text-xl'
                             activeclass="active"
-                            to="/registration">
+                            to="/registration"
+                            onClick={handleScroll}
+                        >
                             Join
                         </NavLink>
 

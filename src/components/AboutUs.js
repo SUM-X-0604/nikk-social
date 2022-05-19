@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import image from '../assets/image-16.jpg'
+import founder1 from '../assets/founder2.jpeg'
+import founder2 from '../assets/lady-founder.jpeg'
 
 
 
@@ -15,16 +17,15 @@ const AboutUs = () => {
                     <div className='flex flex-col'>
                         {/* first paragraph */}
 
-                        <div className='px-4 md:hidden'>
+                        <div className='px-4 sm:hidden'>
                             <img src={image} alt="" />
                         </div>
 
                         {/* headings */}
                         <div className='md:py-8 md:text-center' data-aos="fade-down">
-                            <h1 className='py-2 capitalize text-xl md:text-2xl text-[#d49a35] font-sans font-semibold px-4'>
+                            <h1 className='text-center py-4 capitalize text-xl sm:text-2xl md:text-4xl text-[#d49a35] font-sans font-semibold px-4'>
                                 about Nikk Social Walfare Foudation
                             </h1>
-
                         </div>
                         {/* text */}
                         <div className='text-[#aba8a8] px-4 py-4 leading-normal text-[18px] md:text-[22px]' data-aos="fade-up">
@@ -35,18 +36,34 @@ const AboutUs = () => {
                     </div>
 
 
+                    {/* founders */}
+
+                    <div className='pt-8 md:px-8 xl:px-16'>
+                        <div className='py-4 flex flex-col sm:flex-row '>
+                            <div className='py-4 px-4 '>
+                                <img src={founder1} alt="" />
+                                <h1 className='text-center pt-2 text-white text-3xl'>Mr. Kamal Das</h1>
+                                <p className='text-center pb-4 text-white'>Founder</p>
+                            </div>
+                            <div className='py-4 px-4 '>
+                                <img src={founder2} alt="" />
+                                <h1 className='text-center pt-2 text-white text-3xl'>Mrs. Nandini Sahu Mahant</h1>
+                                <p className='text-center pb-4 text-white'>Director & Co-Founder</p>
+                            </div>
+                        </div>
+                    </div>
+
+
                     {/* Founder Message start */}
 
                     <div className='py-8 flex flex-col md:flex-row'>
-                        <div className='w-[50%]'>
-                            <img src={image} alt="" />
-                        </div>
-                        <div className='w-[50%] text-center'>
-                            <h1 className='py-2 capitalize text-xl md:text-2xl text-[#d49a35] font-sans font-semibold px-4 text-center'>Note from Founder</h1>
+                        <div className=' text-center'>
+                            <h1 className='py-2 capitalize text-xl md:text-2xl text-[#d49a35] font-sans font-semibold px-4 text-center'>Note from Founder's</h1>
                             <p className='text-[#aba8a8] px-4 py-2 leading-normal text-[18px] md:text-[22px]'>
                                 Nick Social Walfare Foundation was born to bridge the gap between the people who want to make a difference through giving back and those who are doing phenomenal work but need more support. Our focus has been to build trust for the social sector by strong due diligence of all our nonprofit partners, and transparency on how donations impacted lives on the ground.
                             </p>
-                            <h1 className='text-white px-4 py-2 leading-normal text-[18px] md:text-[22px]'>Mr. Kamal Das, Founder, Nick Social Walfare Foundation</h1>
+                            <h1 className='text-white px-4 py-2 leading-normal text-[18px] md:text-[22px]'>Mr. Kamal Das & Mrs. Nandini Sahu Mahant
+                                <br /><span className='text-[#aba8a8]'>Nick Social Walfare Foundation</span> </h1>
                         </div>
                     </div>
                     {/* Founder Message end */}
@@ -54,7 +71,7 @@ const AboutUs = () => {
                     {/* legal and financial information start */}
 
                     <div>
-                        <h1 className='py-2 capitalize text-xl md:text-2xl text-[#d49a35] font-sans font-semibold px-4'>legal and financial information </h1>
+                        <h1 className='py-8 capitalize text-xl md:text-2xl text-[#d49a35] font-sans font-semibold px-4'>legal and financial information </h1>
                         <ul className='py-2 text-[#aba8a8] capitalize text-xl md:text-2xl font-sans font-semibold px-4'>
                             <li>(I). NICK SOCIAL WALFARE FOUNDATION is registered on 24-03-2022, a not-for-profit company u/s 8 of the Companies Act, 2013 <span className='text-white'>(Reg. No. 133652)</span> .</li>
                             <br />
