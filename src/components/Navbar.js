@@ -88,6 +88,13 @@ const Navbar = () => {
                             Causes
                         </Link>
 
+                        <NavLink
+                            className='nav-link text-lg md:text-xl'
+                            activeclass="active"
+                            to="/registration">
+                            Join
+                        </NavLink>
+
                         <Link
                             className='nav-link text-lg md:text-xl'
                             activeclass="active"

@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import ErrorPage from "./components/ErrorPage";
+import Header from "./components/Header";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/header" element={<Header />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/registration" element={<Registration />} />
         <Route path="*" element={<ErrorPage />} />

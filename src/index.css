@@ -6,6 +6,10 @@
     html {
         font-family: 'Patrick Hand', cursive;
     }
+
+    .input-class{
+        @apply w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600 border-blue-900
+    }
 }
 
 .header-container {

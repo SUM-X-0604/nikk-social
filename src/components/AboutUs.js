@@ -3,18 +3,14 @@ import { Link } from 'react-router-dom';
 import image from '../assets/image-16.jpg'
 
 
-{/* <button className='my-4 text-lg text-gray-300 border-2 px-4 rounded-full py-2 font-mono bg-[#0A686E] hover:scale-110 transition duration-200 sm:text-xl sm:px-20 md:text-xl md:px-18'>
-                                <Link to='/'>
-                                    Back to Home
-                                </Link>
-                            </button> */}
+
 
 const AboutUs = () => {
     return (
         <>
             <section className='bg-gray-900 h-[100%] '>
                 {/* container */}
-                <div className='py-28 max-w-[1140px] m-auto'>
+                <div className='px-4 py-28 max-w-[1140px] m-auto'>
                     {/* header */}
                     <div className='flex flex-col'>
                         {/* first paragraph */}
@@ -39,23 +35,21 @@ const AboutUs = () => {
                     </div>
 
 
-                    {/* second paragraph start */}
+                    {/* Founder Message start */}
 
-                    <div className='py-8 flex flex-col'>
-                        <div>
+                    <div className='py-8 flex flex-col md:flex-row'>
+                        <div className='w-[50%]'>
                             <img src={image} alt="" />
                         </div>
-                        <div>
+                        <div className='w-[50%] text-center'>
                             <h1 className='py-2 capitalize text-xl md:text-2xl text-[#d49a35] font-sans font-semibold px-4 text-center'>Note from Founder</h1>
                             <p className='text-[#aba8a8] px-4 py-2 leading-normal text-[18px] md:text-[22px]'>
                                 Nick Social Walfare Foundation was born to bridge the gap between the people who want to make a difference through giving back and those who are doing phenomenal work but need more support. Our focus has been to build trust for the social sector by strong due diligence of all our nonprofit partners, and transparency on how donations impacted lives on the ground.
-                                <br />
-                                GiveIndia was born to bridge the gap between the people who want to make a difference through giving back and those who are doing phenomenal work but need more support. Our focus has been to build trust for the social sector by strong due diligence of all our nonprofit partners, and transparency on how donations impacted lives on the ground.
                             </p>
                             <h1 className='text-white px-4 py-2 leading-normal text-[18px] md:text-[22px]'>Mr. Kamal Das, Founder, Nick Social Walfare Foundation</h1>
                         </div>
                     </div>
-                    {/* second paragraph end */}
+                    {/* Founder Message end */}
 
                     {/* legal and financial information start */}
 
@@ -80,7 +74,7 @@ const AboutUs = () => {
                                 Visit us at:<br />
                                 Nikk Social Walfare Foundation<br />
                                 C/O Shambhu Das, Chhind, Sarangarh, Raigarh<br />
-                                Chattisgarh, INDIA
+                                Chattisgarh, India
                             </address>
                         </div>
                     </div>
@@ -89,6 +83,11 @@ const AboutUs = () => {
                     {/* legal and financial information end */}
 
 
+                    <button className='my-4 text-lg text-gray-300 border-2 px-4 rounded-full py-2 font-mono bg-[#0A686E] hover:scale-110 transition duration-200 sm:text-xl sm:px-20 md:text-xl md:px-18'>
+                        <Link to='/header'>
+                            Back to Home
+                        </Link>
+                    </button>
 
                 </div>
 
