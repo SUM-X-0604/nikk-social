@@ -81,8 +81,6 @@ const AboutUs = () => {
 
 
                     {/* legal and financial information end */}
-
-
                     <button className='my-4 text-lg text-gray-300 border-2 px-4 rounded-full py-2 font-mono bg-[#0A686E] hover:scale-110 transition duration-200 sm:text-xl sm:px-20 md:text-xl md:px-18'>
                         <Link to='/'>
                             Back to Home
