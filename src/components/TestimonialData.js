@@ -44,7 +44,7 @@ const TestimonialData = () => {
             <div className='py-4'>
                 <img src={image3} alt='' />
                 <div className="myCarousel">
-                    <h3 className=''>Rightious Prince</h3>
+                    <h3 className=''>Righteous Prince</h3>
                     <p>
                         It's great time to work with Nick Social Walfare Foundation. We are very lucky that we can help poor children to save their life for those who are critically ill. We pray to god that Nick Social Walfare Foundation reach at top of NGO sector.
                     </p>
