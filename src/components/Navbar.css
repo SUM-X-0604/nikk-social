@@ -1,7 +1,7 @@
 .nav-container {
     width: 100%;
-    height: 60px;
-    background: #edac0600;
+    height: 85px;
+    background: #91918d17;
     position: fixed;
     right: 0;
     top: 0;
@@ -10,7 +10,7 @@
 
 .nav-container.active {
     backdrop-filter: blur(17px) saturate(191%);
-    background-color: rgba(52, 50, 50, 0);
+    background: rgba(198, 168, 168, 0);
 }
 
 .navbar {
@@ -31,8 +31,6 @@
     animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.1s both;
     cursor: pointer;
 }
-
-
 
 @keyframes scale-up-center {
     0% {

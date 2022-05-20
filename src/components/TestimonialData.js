@@ -4,7 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 import './TestimonialData.css';
 import image1 from '../assets/png/review-modified.png'
 import image2 from '../assets/png/review-2.png'
-import image3 from '../assets/png/review-3.png'
+import image3 from '../assets/png/review-4.png'
 
 
 
@@ -44,9 +44,12 @@ const TestimonialData = () => {
             <div className='py-4'>
                 <img src={image3} alt='' />
                 <div className="myCarousel">
-                    <h3 className=''>Righteous Prince</h3>
+                    <h3 className=''>Adv. Khulesh Sahu</h3>
                     <p>
-                        It's great time to work with Nick Social Walfare Foundation. We are very lucky that we can help poor children to save their life for those who are critically ill. We pray to god that Nick Social Walfare Foundation reach at top of NGO sector.
+                        *Not an organisation but a family*
+                        <br />
+                        I have been part of various similar organisations but Nikk Social the environment and cooperation between the volunteers are like a family.
+                        I also liked the flexibility in terms of sharing ideas. I am sure that this speciality shall lead this organisation to touch the sky by becoming a pioneer in the field.
                     </p>
                 </div>
             </div>
