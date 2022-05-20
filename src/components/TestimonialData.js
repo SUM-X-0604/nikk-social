@@ -34,7 +34,6 @@ const TestimonialData = () => {
                 <img src={image2} alt='' />
                 <div className="myCarousel">
                     <h3>Sumit Verma</h3>
-
                     <p>
                         Nick Social Walfare Foundation is one of the leading NGO in Raipur and we are very proud to work with this Ngo with complete transparency, accountability for the BPL Children for their critical surgeries
                     </p>
@@ -47,9 +46,9 @@ const TestimonialData = () => {
                     <h3 className=''>Adv. Khulesh Sahu</h3>
                     <p>
                         *Not an organisation but a family*
-                        <br />
+
                         I have been part of various similar organisations but Nikk Social the environment and cooperation between the volunteers are like a family.
-                        I also liked the flexibility in terms of sharing ideas. I am sure that this speciality shall lead this organisation to touch the sky by becoming a pioneer in the field.
+                        I also liked the flexibility in terms of Sharing the ideas. I am sure that this speciality shall lead this organisation to touch the sky by becoming a pioneer in the field.
                     </p>
                 </div>
             </div>
