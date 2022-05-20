@@ -19,6 +19,19 @@ const TestimonialData = () => {
             interval={6100}
         >
 
+            <div className='py-4'>
+                <img src={image3} alt='' />
+                <div className="myCarousel">
+                    <h3 className=''>Adv. Khulesh Sahu</h3>
+                    <p>
+                        Not an organisation but a family.
+
+                        I have been part of various similar organisations but in Nikk Social the environment and cooperation between the volunteers are like a family.
+                        I also liked the flexibility in terms of Sharing the ideas. I am sure that this speciality shall lead this organisation to touch the sky by becoming a pioneer in the field.
+                    </p>
+                </div>
+            </div>
+
 
             <div className='py-4'>
                 <img src={image1} alt='' />
@@ -40,18 +53,6 @@ const TestimonialData = () => {
                 </div>
             </div>
 
-            <div className='py-4'>
-                <img src={image3} alt='' />
-                <div className="myCarousel">
-                    <h3 className=''>Adv. Khulesh Sahu</h3>
-                    <p>
-                        *Not an organisation but a family*
-
-                        I have been part of various similar organisations but Nikk Social the environment and cooperation between the volunteers are like a family.
-                        I also liked the flexibility in terms of Sharing the ideas. I am sure that this speciality shall lead this organisation to touch the sky by becoming a pioneer in the field.
-                    </p>
-                </div>
-            </div>
 
             {/* <div className='py-4'>
                 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--gRFMHqWs--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/1xwiaya5i7wweic3pz96.png" alt='' />
