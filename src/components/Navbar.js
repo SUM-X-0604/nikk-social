@@ -101,6 +101,15 @@ const Navbar = () => {
                             Join
                         </NavLink>
 
+                        <NavLink
+                            className='nav-link text-lg md:text-xl'
+                            activeclass="active"
+                            to="/donation"
+                            onClick={handleScroll}
+                        >
+                            Donate
+                        </NavLink>
+
                         <Link
                             className='nav-link text-lg md:text-xl'
                             activeclass="active"

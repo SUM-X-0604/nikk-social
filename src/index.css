@@ -12,6 +12,22 @@
     }
 }
 
+
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: #000;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #d49a35;
+    border-radius: 10px;
+}
+
 .header-container {
 background-image: url(./assets/image-11.webp);
    height: 100vh;;

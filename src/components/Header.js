@@ -22,6 +22,7 @@ const Header = () => {
                             <Link to='/registration'>
                                 <button className='text-lg text-gray-300 border-2 px-6 rounded-full py-2 font-mono bg-[#d49a35] hover:scale-110 transition duration-200 sm:text-xl sm:px-20 md:text-2xl lg:px-12 lg:text-xl' data-aos="zoom-in">Join Us </button>
                             </Link>
+
                         </div>
                     </div>
 

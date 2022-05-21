@@ -1,5 +1,6 @@
 import React from 'react';
 import image from '../assets/image-14.jpg'
+import { Link } from 'react-router-dom';
 
 const Care = () => {
     return (
@@ -16,12 +17,13 @@ const Care = () => {
                             <p className='text-[#b0aa9c] px-4 text-5xl leading-snug capitalize'>do you care our children?</p>
                         </div>
                         <div className='px-4 py-4 leading-normal text-[#aba8a8] md:text-xl'>
-                            <p>Your smallest contribution makes a big difference to children’s lives. We count on the generosity of people like you to be able to create real change for India’s children!</p>
+                            <p>Your smallest contribution makes a big difference to children's lives. We count on the generosity of people like you to be able to create real change for India's children!</p>
                             <br />
-                            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nam quasi nesciunt accusamus maiores eveniet laborum sequi hic dignissimos facilis error voluptatum animi, doloribus porro ut doloremque saepe ducimus nihil similique consectetur.</p> */}
-                            <button className='my-4 text-lg text-gray-300 border-2 px-4 rounded-full py-2 font-mono bg-[#0A686E] hover:scale-110 transition duration-200 sm:text-xl sm:px-20 md:text-xl md:px-18'>
-                                <span> ❤ </span>Donate for Happier Chidlhoods
-                            </button>
+                            <Link to='/donation'>
+                                <button className='my-4 text-lg text-gray-300 border-2 px-4 rounded-full py-2 font-mono bg-[#0A686E] hover:scale-110 transition duration-200 sm:text-xl sm:px-20 md:text-xl md:px-18'>
+                                    <span>❤ </span>Donate for Happier Chidlhoods<span> ❤</span>
+                                </button>
+                            </Link>
                         </div>
                     </div>
 

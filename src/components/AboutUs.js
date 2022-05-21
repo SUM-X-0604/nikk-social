@@ -4,9 +4,6 @@ import image from '../assets/image-16.jpg'
 import founder1 from '../assets/founder2.jpeg'
 import founder2 from '../assets/lady-founder.jpeg'
 
-
-
-
 const AboutUs = () => {
     return (
         <>
@@ -90,7 +87,7 @@ const AboutUs = () => {
                             <address>
                                 Visit us at:<br />
                                 Nikk Social Walfare Foundation<br />
-                                C/O Shambhu Das, Chhind, Sarangarh, Raigarh<br />
+                                C/O Shanbhu Das, Chhind, Sarangarh, Raigarh<br />
                                 Chattisgarh, India
                             </address>
                         </div>

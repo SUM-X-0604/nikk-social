@@ -43,11 +43,15 @@ const About = () => {
                     {/* first */}
                     <div className='flex justify-center flex-col items-center cursor-pointer' >
                         <div className='bg-[#d49a3a] m-auto rounded-full w-28 h-28 relative'>
-                            <Link to="/">
+                            <Link to="/donation">
                                 <img src={donation} alt="" className='h-16 w-16 top-[25%] left-[20%] absolute items-center ' />
                             </Link>
                         </div>
-                        <h1 className='py-4 text-2xl text-gray-400 hover:text-[#d49a3a]'>Start Donating</h1>
+                        <Link to='/donation'>
+                            <h1 className='py-4 text-2xl text-gray-400 hover:text-[#d49a3a]'>
+                                Start Donating
+                            </h1>
+                        </Link>
                     </div>
                     {/* second */}
                     <div className='flex justify-center flex-col items-center py-8 cursor-pointer' >
@@ -56,7 +60,9 @@ const About = () => {
                                 <img src={community} alt="" className='h-16 w-16 top-[25%] left-[20%] absolute items-center text-white' />
                             </Link>
                         </div>
-                        <h1 className='py-4 text-2xl text-gray-400 hover:text-[#d49a3a]'>Join Our Community</h1>
+                        <Link to="/registration">
+                            <h1 className='py-4 text-2xl text-gray-400 hover:text-[#d49a3a]'>Join Our Community</h1>
+                        </Link>
                     </div>
                     {/* third */}
                     <div className='flex justify-center flex-col items-center cursor-pointer' >
@@ -65,7 +71,9 @@ const About = () => {
                                 <img src={volunteer} alt="" className='h-16 w-16 top-[25%] left-[20%] absolute items-center text-white' />
                             </Link>
                         </div>
-                        <h1 className='py-4 text-2xl text-gray-400 hover:text-[#d49a3a]'>Be A Volunteer</h1>
+                        <Link to="/registration">
+                            <h1 className='py-4 text-2xl text-gray-400 hover:text-[#d49a3a]'>Be A Volunteer</h1>
+                        </Link>
                     </div>
                 </div>
             </section>
