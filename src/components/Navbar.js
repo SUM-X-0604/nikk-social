@@ -74,7 +74,7 @@ const Navbar = () => {
                         </Link> */}
 
                         <div className='nav-link' onClick={handleDropdown}>About
-                            {dropdown ? (<div className="dropdown w-[100%] bg-slate-100 pr-20 absolute flex flex-col rounded mt-6 p-2 text-[#d49a35] z-100 " >
+                            {dropdown ? (<div className="dropdown w-[100%] bg-slate-800 pr-20 absolute flex flex-col rounded mt-6 p-2 text-[#d49a35] z-100 " >
                                 <NavLink to="/about-us" className="py-1">AboutUs</NavLink>
                                 <NavLink to="/mission" className="py-1">Mission</NavLink>
                                 <NavLink to="/vision" className="py-1">Vision</NavLink>

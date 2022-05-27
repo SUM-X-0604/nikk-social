@@ -70,7 +70,7 @@ const AboutUs = () => {
                     {/* <div>
                         <h1 className='py-8 capitalize text-xl md:text-2xl text-[#d49a35] font-sans font-semibold px-4'>legal and financial information </h1>
                         <ul className='py-2 text-[#aba8a8] capitalize text-xl md:text-2xl font-sans font-semibold px-4'>
-                            <li>(I). NIkk SOCIAL WALFARE FOUNDATION is registered on 24-03-2022, a not-for-profit company u/s 8 of the Companies Act, 2013 <span className='text-white'>(Reg. No. 133652)</span> .</li>
+                            <li>(I). NIkk SOCIAL WALFARE FOUNDATION is registered on 24-03-2022, a non-profitable company u/s 8 of the Companies Act, 2013 <span className='text-white'>(Reg. No. 133652)</span> .</li>
                             <br />
                             <li>(II). The Corporate Identity Number of the NIkk SOCIAL WALFARE FOUNDATION is <span className='text-white'>U85320CT2022NPL012928</span> </li>
                             <br />
