@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
+    const [dropdown, setDropdown] = useState(false);
 
     const background = () => {
         if (window.scrollY >= Infinity) {
@@ -26,11 +27,15 @@ const Navbar = () => {
             behavior: 'smooth',
             duration: 500
         })
+    };
+
+    const handleDropdown = () => {
+        setDropdown(!dropdown)
     }
 
     return (
         <div className={nav ? 'nav-container active ' : 'nav-container'}>
-            <div className="navbar sm:pt-8">
+            <div className="navbar ">
                 <div className="logo flex flex-col justify-center items-left sm:mx-4 cursor-pointer " data-aos="fade-down">
                     <Link to="/">
                         <h1
@@ -38,7 +43,7 @@ const Navbar = () => {
                             onClick={handleScroll}
                         >
                             Nikk
-                            <span className=' text-[#d49a35]'>
+                            <span className='text-[#d49a35]'>
                                 Social
                             </span>
                         </h1>
@@ -47,19 +52,17 @@ const Navbar = () => {
                 </div>
 
                 <div>
-
                     <div className={click ? 'list-group active ' : 'list-group'}>
                         <NavLink
                             className='nav-link text-lg md:text-xl'
                             activeclass="active"
                             to="/"
                             onClick={handleScroll}
-
                         >
                             Home
                         </NavLink>
 
-                        <Link
+                        {/* <Link
                             className='nav-link text-lg md:text-xl'
                             activeclass="active"
                             to="about"
@@ -68,7 +71,15 @@ const Navbar = () => {
                             offset={-100}
                             duration={500}>
                             About
-                        </Link>
+                        </Link> */}
+
+                        <div className='nav-link' onClick={handleDropdown}>About
+                            {dropdown ? (<div className="dropdown w-[100%] bg-slate-100 pr-20 absolute flex flex-col rounded mt-6 p-2 text-[#d49a35] z-100 " >
+                                <NavLink to="/about-us" className="py-1">AboutUs</NavLink>
+                                <NavLink to="/mission" className="py-1">Mission</NavLink>
+                                <NavLink to="/vision" className="py-1">Vision</NavLink>
+                            </div>) : ''}
+                        </div>
 
                         <Link
                             className='nav-link text-lg md:text-xl'
@@ -122,8 +133,6 @@ const Navbar = () => {
                         </Link>
                     </div>
                 </div>
-
-
 
                 <div className="icons" onClick={handleClick}>
                     <div className={click ? "bar1 active" : "bar1"}></div>
