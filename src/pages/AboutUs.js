@@ -21,7 +21,7 @@ const AboutUs = () => {
                         {/* headings */}
                         <div className='md:py-8 md:text-center' data-aos="fade-down">
                             <h1 className='text-center py-4 capitalize text-xl sm:text-2xl md:text-4xl text-[#d49a35] font-sans font-semibold px-4'>
-                                about Nikk Social Walfare Foudation
+                                about Nikk Social Walfare Foundation
                             </h1>
                         </div>
                         {/* text */}
@@ -53,26 +53,26 @@ const AboutUs = () => {
 
                     {/* Founder Message start */}
 
-                    <div className='py-8 flex flex-col md:flex-row'>
+                    {/* <div className='py-8 flex flex-col md:flex-row'>
                         <div className=' text-center'>
                             <h1 className='py-2 capitalize text-xl md:text-2xl text-[#d49a35] font-sans font-semibold px-4 text-center'>Note from Founder's</h1>
                             <p className='text-[#aba8a8] px-4 py-2 leading-normal text-[18px] md:text-[22px]'>
-                                Nick Social Walfare Foundation was born to bridge the gap between the people who want to make a difference through giving back and those who are doing phenomenal work but need more support. Our focus has been to build trust for the social sector by strong due diligence of all our nonprofit partners, and transparency on how donations impacted lives on the ground.
+                                Nikk Social Walfare Foundation is born to bridge the gap between the people who want to make a difference through giving back and those who are doing phenomenal work but need more support. Our focus has been to build trust for the social sector by strong due diligence of all our nonprofit partners, and transparency on how donations impacted lives on the ground.
                             </p>
                             <h1 className='text-white px-4 py-2 leading-normal text-[18px] md:text-[22px]'>Mrs. Nandini Sahu Mahant & Mr. Kamal Mahant
-                                <br /><span className='text-[#aba8a8]'>Nick Social Walfare Foundation</span> </h1>
+                                <br /><span className='text-[#aba8a8]'>Nikk Social Walfare Foundation</span> </h1>
                         </div>
-                    </div>
+                    </div> */}
                     {/* Founder Message end */}
 
                     {/* legal and financial information start */}
 
-                    <div>
+                    {/* <div>
                         <h1 className='py-8 capitalize text-xl md:text-2xl text-[#d49a35] font-sans font-semibold px-4'>legal and financial information </h1>
                         <ul className='py-2 text-[#aba8a8] capitalize text-xl md:text-2xl font-sans font-semibold px-4'>
-                            <li>(I). NICK SOCIAL WALFARE FOUNDATION is registered on 24-03-2022, a not-for-profit company u/s 8 of the Companies Act, 2013 <span className='text-white'>(Reg. No. 133652)</span> .</li>
+                            <li>(I). NIkk SOCIAL WALFARE FOUNDATION is registered on 24-03-2022, a not-for-profit company u/s 8 of the Companies Act, 2013 <span className='text-white'>(Reg. No. 133652)</span> .</li>
                             <br />
-                            <li>(II). The Corporate Identity Number of the NICK SOCIAL WALFARE FOUNDATION is <span className='text-white'>U85320CT2022NPL012928</span> </li>
+                            <li>(II). The Corporate Identity Number of the NIkk SOCIAL WALFARE FOUNDATION is <span className='text-white'>U85320CT2022NPL012928</span> </li>
                             <br />
                             <li>(III). The Tax Deduction and Collection Account Number(TAN) is <span className='text-white'>
                                 JBPN03423A</span> </li>
@@ -91,19 +91,18 @@ const AboutUs = () => {
                                 Chattisgarh, India
                             </address>
                         </div>
-                    </div>
+                    </div> */}
 
 
                     {/* legal and financial information end */}
-                    <button className='my-4 text-lg text-gray-300 border-2 px-4 rounded-full py-2 font-mono bg-[#0A686E] hover:scale-110 transition duration-200 sm:text-xl sm:px-20 md:text-xl md:px-18'>
-                        <Link to='/'>
-                            Back to Home
-                        </Link>
-                    </button>
-
+                    <div className='flex justify-center items-center'>
+                        <button className='my-4 text-lg text-gray-300 border-2 px-4 rounded-full py-2 font-mono bg-[#0A686E] hover:scale-110 transition duration-200 sm:text-xl sm:px-20 md:text-xl md:px-18 '>
+                            <Link to='/'>
+                                Back to Home
+                            </Link>
+                        </button>
+                    </div>
                 </div>
-
-
             </section>
         </>
     )
