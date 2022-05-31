@@ -12,6 +12,7 @@ import ErrorPage from "./pages/ErrorPage";
 import Header from "./components/Header";
 import Mission from "./pages/Mission";
 import Vision from "./pages/Vision";
+import Gallery from './pages/Gallery'
 
 function App() {
   useEffect(() => {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/donation" element={<Donation />} />
         <Route path="/mission" element={<Mission />} />
         <Route path="/vision" element={<Vision />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />

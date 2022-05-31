@@ -92,16 +92,16 @@ const Navbar = () => {
                             Blog
                         </Link>
 
-                        <Link
+                        <NavLink
                             className='nav-link text-lg md:text-xl'
                             activeclass="active"
-                            to="causes"
+                            to='/gallery'
                             spy={true}
                             smooth={true}
                             offset={-100}
                             duration={500}>
-                            Causes
-                        </Link>
+                            Gallery
+                        </NavLink>
 
                         <NavLink
                             className='nav-link text-lg md:text-xl'
