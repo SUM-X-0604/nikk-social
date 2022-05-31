@@ -47,7 +47,7 @@ const Navbar = () => {
                                 Social
                             </span>
                         </h1>
-                        <span className='text-gray-400 text-[12px]'>Walfare Foundation</span>
+                        <span className='text-gray-400 text-[12px]'>Welfare Foundation</span>
                     </Link>
                 </div>
 

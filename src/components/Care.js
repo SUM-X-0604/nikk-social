@@ -13,7 +13,7 @@ const Care = () => {
                     {/* text */}
                     <div className='py-4 flex flex-col sm:px-4 md:w-[50%]'>
                         <div className='leading-normal'>
-                            <h1 className='text-md text-[#d49a35] font-sans font-semibold px-4 capitalize'>welcome to nikk social walfare foudation</h1>
+                            <h1 className='text-md text-[#d49a35] font-sans font-semibold px-4 capitalize'>welcome to nikk social welfare foudation</h1>
                             <p className='text-[#b0aa9c] px-4 text-5xl leading-snug capitalize'>do you care our children?</p>
                         </div>
                         <div className='px-4 py-4 leading-normal text-[#aba8a8] md:text-xl'>

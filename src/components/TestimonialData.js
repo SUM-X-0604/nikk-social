@@ -38,7 +38,7 @@ const TestimonialData = () => {
                 <div className="myCarousel">
                     <h3>Salim khan</h3>
                     <p>
-                        I'm fortunate to have been part of Nick Social Walfare Foundation and really happy to see outstanding work done by them. It is a best way to stay connected with strangers. Everyone live their life for themselves, their family, friends and relatives but life is complete if we live for others too.
+                        I'm fortunate to have been part of Nick Social Welfare Foundation and really happy to see outstanding work done by them. It is a best way to stay connected with strangers. Everyone live their life for themselves, their family, friends and relatives but life is complete if we live for others too.
                     </p>
                 </div>
             </div>
@@ -48,7 +48,7 @@ const TestimonialData = () => {
                 <div className="myCarousel">
                     <h3>Sumit Verma</h3>
                     <p>
-                        Nick Social Walfare Foundation is one of the leading NGO in Raipur and we are very proud to work with this Ngo with complete transparency, accountability for the BPL Children for their critical surgeries
+                        Nick Social Welfare Foundation is one of the leading NGO in Raipur and we are very proud to work with this Ngo with complete transparency, accountability for the BPL Children for their critical surgeries
                     </p>
                 </div>
             </div>
@@ -60,7 +60,7 @@ const TestimonialData = () => {
                     <h3>Sumit Verma</h3>
 
                     <p>
-                        Nick Social Walfare Foundation is Umbrella in rain, Blanket in winter and Ice in summer. Abhilasha is a name that belongs to love, shelter and humanity.
+                        Nick Social Welfare Foundation is Umbrella in rain, Blanket in winter and Ice in summer. Abhilasha is a name that belongs to love, shelter and humanity.
                     </p>
                 </div>
             </div> */}
@@ -71,7 +71,7 @@ const TestimonialData = () => {
                     <h3>Sumit Verma</h3>
 
                     <p>
-                        Nick Social Walfare Foundation believes that affection is greater than perfection. The organization obeys the rules that if and when were planted, nothing grew.
+                        Nick Social Welfare Foundation believes that affection is greater than perfection. The organization obeys the rules that if and when were planted, nothing grew.
                     </p>
                 </div>
             </div> */}

@@ -7,6 +7,7 @@ import Contact from '../components/Contact'
 import Header from '../components/Header'
 import Quote from '../components/Quote'
 import Testimonial from '../components/Testimonial'
+import Videos from '../components/Videos'
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <Causes />
             <Quote />
             <Care />
+            <Videos />
             <Blog />
             <Testimonial />
             <Contact />

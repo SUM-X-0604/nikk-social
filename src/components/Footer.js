@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaInstagramSquare } from 'react-icons/fa'
-import { AiFillTwitterCircle } from 'react-icons/ai'
+import { AiFillTwitterCircle, AiFillYoutube } from 'react-icons/ai'
 import Fade from 'react-reveal/Fade';
 // import { Link } from 'react-router-dom';
 // import Fade from 'react-reveal/Fade';
@@ -31,6 +31,11 @@ const Footer = () => {
                                 <FaInstagramSquare size={20} />
                             </a>
 
+                            {/* youtube */}
+                            <a href="https://www.youtube.com/channel/UCV7ZRTVx3vfQeBMFIKfN9Rw" target="_blank" rel="noreferrer">
+                                <AiFillYoutube size={20} />
+                            </a>
+
                             {/* Linkedin */}
                             <a href="/" target="_blank" rel="noreferrer">
                                 <AiFillTwitterCircle size={20} />
@@ -41,7 +46,7 @@ const Footer = () => {
                         {/* copyright */}
                         <div className='flex justify-center items-center py-4'>
                             <h1 className='text-xl'>
-                                Copyright © 2022 Nikk Social
+                                Copyright © 2022 Nikk Social Welfare Foundation
                             </h1>
                         </div>
                     </div>

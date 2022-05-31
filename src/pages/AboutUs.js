@@ -21,7 +21,7 @@ const AboutUs = () => {
                         {/* headings */}
                         <div className='md:py-8 md:text-center' data-aos="fade-down">
                             <h1 className='text-center py-4 capitalize text-xl sm:text-2xl md:text-4xl text-[#d49a35] font-sans font-semibold px-4'>
-                                about Nikk Social Walfare Foundation
+                                about Nikk Social Welfare Foundation
                             </h1>
                         </div>
                         {/* text */}
@@ -57,10 +57,10 @@ const AboutUs = () => {
                         <div className=' text-center'>
                             <h1 className='py-2 capitalize text-xl md:text-2xl text-[#d49a35] font-sans font-semibold px-4 text-center'>Note from Founder's</h1>
                             <p className='text-[#aba8a8] px-4 py-2 leading-normal text-[18px] md:text-[22px]'>
-                                Nikk Social Walfare Foundation is born to bridge the gap between the people who want to make a difference through giving back and those who are doing phenomenal work but need more support. Our focus has been to build trust for the social sector by strong due diligence of all our nonprofit partners, and transparency on how donations impacted lives on the ground.
+                                Nikk Social Welfare Foundation is born to bridge the gap between the people who want to make a difference through giving back and those who are doing phenomenal work but need more support. Our focus has been to build trust for the social sector by strong due diligence of all our nonprofit partners, and transparency on how donations impacted lives on the ground.
                             </p>
                             <h1 className='text-white px-4 py-2 leading-normal text-[18px] md:text-[22px]'>Mrs. Nandini Sahu Mahant & Mr. Kamal Mahant
-                                <br /><span className='text-[#aba8a8]'>Nikk Social Walfare Foundation</span> </h1>
+                                <br /><span className='text-[#aba8a8]'>Nikk Social Welfare Foundation</span> </h1>
                         </div>
                     </div> */}
                     {/* Founder Message end */}
@@ -70,9 +70,9 @@ const AboutUs = () => {
                     {/* <div>
                         <h1 className='py-8 capitalize text-xl md:text-2xl text-[#d49a35] font-sans font-semibold px-4'>legal and financial information </h1>
                         <ul className='py-2 text-[#aba8a8] capitalize text-xl md:text-2xl font-sans font-semibold px-4'>
-                            <li>(I). NIkk SOCIAL WALFARE FOUNDATION is registered on 24-03-2022, a non-profitable company u/s 8 of the Companies Act, 2013 <span className='text-white'>(Reg. No. 133652)</span> .</li>
+                            <li>(I). NIkk SOCIAL WeLFARE FOUNDATION is registered on 24-03-2022, a non-profitable company u/s 8 of the Companies Act, 2013 <span className='text-white'>(Reg. No. 133652)</span> .</li>
                             <br />
-                            <li>(II). The Corporate Identity Number of the NIkk SOCIAL WALFARE FOUNDATION is <span className='text-white'>U85320CT2022NPL012928</span> </li>
+                            <li>(II). The Corporate Identity Number of the NIkk SOCIAL WeLFARE FOUNDATION is <span className='text-white'>U85320CT2022NPL012928</span> </li>
                             <br />
                             <li>(III). The Tax Deduction and Collection Account Number(TAN) is <span className='text-white'>
                                 JBPN03423A</span> </li>
@@ -86,7 +86,7 @@ const AboutUs = () => {
                         <div className='py-2 capitalize text-xl md:text-2xl text-[#d49a35] font-sans font-semibold px-4'>
                             <address>
                                 Visit us at:<br />
-                                Nikk Social Walfare Foundation<br />
+                                Nikk Social Welfare Foundation<br />
                                 C/O Shanbhu Das, Chhind, Sarangarh, Raigarh<br />
                                 Chattisgarh, India
                             </address>

@@ -39,13 +39,13 @@ const Blog = () => {
                             <img src={image2} alt="" data-aos="zoom-in-up" />
                             <div className='flex flex-col items-center text-center'>
                                 <p className='text-2xl capitalize pt-4 hover:text-[#d49a35]'>give food to homeless children</p>
-                                <p className='py-4 px-6 '>21% of India's children are severely underweight. Hungry children can not build the country's future. For India's poor children. Feed our children and their hopes by donating mid-day meals to our starving children in need to help them fight starvation and malnutrition, so they don’t have to live and learn on a hungry stomach.</p>
+                                <p className='py-4 px-6 '>21% of India's children are severely underweight. Hungry children can not build the country's future. For India's poor children. Feed our children and their hopes by donating mid-day meals to our starving children in need to help them fight starvation and malnutrition, so they don't have to live and learn on a hungry stomach.</p>
                                 <button className='text-md text-gray-300 border-2 rounded-full px-4 py-2 font-mono bg-[#d49a35] hover:scale-110 transition duration-200  sm:px-20 md:px-6'>Know More... </button>
                             </div>
                         </div>
                         {/* 2nd item end */}
 
-                        <div className='flex flex-col  px-4'>
+                        <div className='flex flex-col px-4'>
                             <img src={image3} alt="" data-aos="zoom-in-up" />
                             <div className='flex flex-col items-center text-center'>
                                 <p className='text-2xl capitalize pt-4 hover:text-[#d49a35]'>give hope to homeless people</p>

@@ -8,7 +8,7 @@ import image2 from '../assets/image-7.jpg'
 import image3 from '../assets/image-5.jpg'
 
 const Carousel = () => {
-    let settings1 = {
+    let settings = {
         dots: true,
         infinite: true,
         slidesToShow: 1,
@@ -24,14 +24,14 @@ const Carousel = () => {
                 <div className='flex flex-col justify-between text-center md:px-40 lg:px-44'>
                     <div className='flex flex-col'
                     >
-                        <Slider {...settings1}>
+                        <Slider {...settings}>
                             {/* first */}
                             <div className='flex flex-wrap px-4 py-4' data-aos="flip-up">
                                 <img src={image1} alt="" />
                                 <div className='bg-[#89926977] flex flex-col'>
                                     <p className='text-2xl capitalize pt-4 md:py-4 md:text-4xl'>give food to homeless children</p>
                                     <p className='p-8 md
-                                    text-md'> 21% of India's children are severely underweight. Hungry children can not build the country's future. For India's poor children, the mid-day meal at school is their only proper meal in a day. Feed our children and their hopes by donating mid-day meals to our starving children in need to help them fight starvation and malnutrition, so they don’t have to live and learn on a hungry stomach.</p>
+                                    text-md'> 21% of India's children are severely underweight. Hungry children can not build the country's future. For India's poor children, the mid-day meal at school is their only proper meal in a day. Feed our children and their hopes by donating mid-day meals to our starving children in need to help them fight starvation and malnutrition, so they don't have to live and learn on a hungry stomach.</p>
                                 </div>
                             </div>
                             {/* second */}

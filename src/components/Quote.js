@@ -13,7 +13,7 @@ const Quote = () => {
                         <div className='flex flex-col text-center px-4 pt-32 sm:pt-60 ' data-aos="fade-up">
                             {/* header */}
                             <div className='w-[100%]'>
-                                <span className='text-gray-100 text-lg md:text-xl'>Nikk Social Walfare Foundation </span>
+                                <span className='text-gray-100 text-lg md:text-xl'>Nikk Social Welfare Foundation </span>
                                 <h1 className='text-[40px] text-white py-2 leading-normal capitalize md:text-[44px]'>the small act if kindness is worth more than the grandest intention</h1>
                             </div>
 
