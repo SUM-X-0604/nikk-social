@@ -54,20 +54,8 @@ const Blog = () => {
                             </div>
                         </div>
                         {/* 3rd item end */}
-
                     </div>
-
-                    {/* date */}
-                    {/* <div>
-                        <h1>admin</h1>
-                        <p>date</p>
-                    </div> */}
-
                 </div>
-
-
-
-
             </section>
 
         </>
