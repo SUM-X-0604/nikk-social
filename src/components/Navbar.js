@@ -62,22 +62,14 @@ const Navbar = () => {
                             Home
                         </NavLink>
 
-                        {/* <Link
-                            className='nav-link text-lg md:text-xl'
-                            activeclass="active"
-                            to="about"
-                            spy={true}
-                            smooth={true}
-                            offset={-100}
-                            duration={500}>
-                            About
-                        </Link> */}
-
                         <div className='nav-link' onClick={handleDropdown}>About
-                            {dropdown ? (<div className="dropdown w-[100%] bg-slate-800 pr-20 absolute flex flex-col rounded mt-6 p-2 text-[#d49a35] z-100 " >
-                                <NavLink to="/about-us" className="py-1">AboutUs</NavLink>
+                            {dropdown ? (<div className="dropdown w-[100%] bg-slate-800 pr-20 absolute flex flex-col rounded mt-6 p-2 text-[#d49a35] z-100 whitespace-nowrap " >
+                                <NavLink to="/about-us" className="py-1">About Us</NavLink>
+                                <NavLink to="/work" className="py-1 ">our work</NavLink>
                                 <NavLink to="/mission" className="py-1">Mission</NavLink>
                                 <NavLink to="/vision" className="py-1">Vision</NavLink>
+                                <NavLink to="/about-us" className="py-1">Founders</NavLink>
+
                             </div>) : ''}
                         </div>
 
@@ -89,7 +81,7 @@ const Navbar = () => {
                             smooth={true}
                             offset={-100}
                             duration={500}>
-                            Blog
+                            blogs
                         </Link>
 
                         <NavLink
@@ -110,15 +102,6 @@ const Navbar = () => {
                             onClick={handleScroll}
                         >
                             Join
-                        </NavLink>
-
-                        <NavLink
-                            className='nav-link text-lg md:text-xl'
-                            activeclass="active"
-                            to="/donation"
-                            onClick={handleScroll}
-                        >
-                            Donate
                         </NavLink>
 
                         <Link

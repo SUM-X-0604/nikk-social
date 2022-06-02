@@ -13,6 +13,7 @@ import Header from "./components/Header";
 import Mission from "./pages/Mission";
 import Vision from "./pages/Vision";
 import Gallery from './pages/Gallery'
+import Work from "./pages/Work";
 
 function App() {
   useEffect(() => {
@@ -32,6 +33,7 @@ function App() {
         <Route path="/mission" element={<Mission />} />
         <Route path="/vision" element={<Vision />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/work" element={<Work />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />

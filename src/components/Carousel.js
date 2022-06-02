@@ -26,22 +26,23 @@ const Carousel = () => {
                     >
                         <Slider {...settings}>
                             {/* first */}
-                            <div className='flex px-4 py-4 ' data-aos="flip-up">
-                                <img src={image4} alt="" className='lg:p-16' />
+                            <div className='flex px-4 py-4' data-aos="flip-up">
+                                <img src={image4} alt="" />
                             </div>
                             {/* second */}
                             <div className='flex px-4' data-aos="flip-up">
-                                <img src={image2} alt="" className='lg:p-16' />
+                                <img src={image2} alt="" />
                             </div>
 
                             {/* third */}
                             <div className='flex px-4' data-aos="flip-up">
-                                <img src={image3} alt="" className='lg:p-16' />
+                                <img src={image3} alt="" />
                             </div>
 
                             {/* fourth */}
+                            {/* third */}
                             <div className='flex px-4' data-aos="flip-up">
-                                <img src={image1} alt="" className='lg:p-16' />
+                                <img src={image1} alt="" />
                             </div>
 
 

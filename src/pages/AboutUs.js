@@ -53,7 +53,7 @@ const AboutUs = () => {
 
                     {/* Founder Message start */}
 
-                    {/* <div className='py-8 flex flex-col md:flex-row'>
+                    <div className='py-8 flex flex-col md:flex-row'>
                         <div className=' text-center'>
                             <h1 className='py-2 capitalize text-xl md:text-2xl text-[#d49a35] font-sans font-semibold px-4 text-center'>Note from Founder's</h1>
                             <p className='text-[#aba8a8] px-4 py-2 leading-normal text-[18px] md:text-[22px]'>
@@ -62,39 +62,9 @@ const AboutUs = () => {
                             <h1 className='text-white px-4 py-2 leading-normal text-[18px] md:text-[22px]'>Mrs. Nandini Sahu Mahant & Mr. Kamal Mahant
                                 <br /><span className='text-[#aba8a8]'>Nikk Social Welfare Foundation</span> </h1>
                         </div>
-                    </div> */}
+                    </div>
                     {/* Founder Message end */}
 
-                    {/* legal and financial information start */}
-
-                    {/* <div>
-                        <h1 className='py-8 capitalize text-xl md:text-2xl text-[#d49a35] font-sans font-semibold px-4'>legal and financial information </h1>
-                        <ul className='py-2 text-[#aba8a8] capitalize text-xl md:text-2xl font-sans font-semibold px-4'>
-                            <li>(I). NIkk SOCIAL WeLFARE FOUNDATION is registered on 24-03-2022, a non-profitable company u/s 8 of the Companies Act, 2013 <span className='text-white'>(Reg. No. 133652)</span> .</li>
-                            <br />
-                            <li>(II). The Corporate Identity Number of the NIkk SOCIAL WeLFARE FOUNDATION is <span className='text-white'>U85320CT2022NPL012928</span> </li>
-                            <br />
-                            <li>(III). The Tax Deduction and Collection Account Number(TAN) is <span className='text-white'>
-                                JBPN03423A</span> </li>
-                            <br />
-                            <li>(IV). The Permanent Account Number(PAN) is <span className='text-white'>AAICN1439M</span> </li>
-                            <br />
-                            <li>(V).
-                                Employees state insurance corporation certificate number is <span className='text-white'>C-11</span>
-                            </li>
-                        </ul>
-                        <div className='py-2 capitalize text-xl md:text-2xl text-[#d49a35] font-sans font-semibold px-4'>
-                            <address>
-                                Visit us at:<br />
-                                Nikk Social Welfare Foundation<br />
-                                C/O Shanbhu Das, Chhind, Sarangarh, Raigarh<br />
-                                Chattisgarh, India
-                            </address>
-                        </div>
-                    </div> */}
-
-
-                    {/* legal and financial information end */}
                     <div className='flex justify-center items-center'>
                         <button className='my-4 text-lg text-gray-300 border-2 px-4 rounded-full py-2 font-mono bg-[#0A686E] hover:scale-110 transition duration-200 sm:text-xl sm:px-20 md:text-xl md:px-18 '>
                             <Link to='/' >
