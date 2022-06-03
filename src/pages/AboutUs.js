@@ -57,7 +57,7 @@ const AboutUs = () => {
                         <div className=' text-center'>
                             <h1 className='py-2 capitalize text-xl md:text-2xl text-[#d49a35] font-sans font-semibold px-4 text-center'>Note from Founder's</h1>
                             <p className='text-[#aba8a8] px-4 py-2 leading-normal text-[18px] md:text-[22px]'>
-                                Nikk Social Welfare Foundation is born to bridge the gap between the people who want to make a difference through giving back and those who are doing phenomenal work but need more support. Our focus has been to build trust for the social sector by strong due diligence of all our nonprofit partners, and transparency on how donations impacted lives on the ground.
+                                Our focus has been to build trust for the social sector by strong due diligence of all our nonprofit partners, and transparency on how donations impacted lives on the ground.
                             </p>
                             <h1 className='text-white px-4 py-2 leading-normal text-[18px] md:text-[22px]'>Mrs. Nandini Sahu Mahant & Mr. Kamal Mahant
                                 <br /><span className='text-[#aba8a8]'>Nikk Social Welfare Foundation</span> </h1>
