@@ -80,7 +80,7 @@ const Navbar = () => {
                             smooth={true}
                             offset={-100}
                             duration={500}>
-                            Our works
+                            Our work
                         </NavLink>
 
                         <NavLink

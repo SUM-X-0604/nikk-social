@@ -41,8 +41,9 @@ const Work = () => {
 
 
                         {/* image 2*/}
-                        <div className='px-4 py-4'>
+                        <div className='px-4 py-4 flex flex-col items-center justify-center '>
                             <img src={image1} alt="" className='sm:px-16 md:px-32 lg:px-40' />
+                            <p className='p-4 text-md md:text-xl capitalize text-[#d49a35]'>pic:- Our program manager Mr. Umashankar Sahu guiding students</p>
                         </div>
 
                         {/* text */}
