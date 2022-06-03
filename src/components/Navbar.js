@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
-    const [dropdown, setDropdown] = useState(false);
+    // const [dropdown, setDropdown] = useState(false);
 
     const background = () => {
         if (window.scrollY >= Infinity) {
@@ -29,9 +29,9 @@ const Navbar = () => {
         })
     };
 
-    const handleDropdown = () => {
-        setDropdown(!dropdown)
-    }
+    // const handleDropdown = () => {
+    //     setDropdown(!dropdown)
+    // }
 
     return (
         <div className={nav ? 'nav-container active ' : 'nav-container'}>
@@ -57,23 +57,55 @@ const Navbar = () => {
                             className='nav-link text-lg md:text-xl'
                             activeclass="active"
                             to="/"
-                            onClick={handleScroll}
-                        >
+                            onClick={handleScroll}>
                             Home
                         </NavLink>
 
-                        <div className='nav-link' onClick={handleDropdown}>About
-                            {dropdown ? (<div className="dropdown w-[100%] bg-slate-800 pr-20 absolute flex flex-col rounded mt-6 p-2 text-[#d49a35] z-100 whitespace-nowrap " >
-                                <NavLink to="/about-us" className="py-1">About Us</NavLink>
-                                <NavLink to="/work" className="py-1 ">our work</NavLink>
-                                <NavLink to="/mission" className="py-1">Mission</NavLink>
-                                <NavLink to="/vision" className="py-1">Vision</NavLink>
-                                <NavLink to="/about-us" className="py-1">Founders</NavLink>
+                        <NavLink
+                            className='nav-link text-lg md:text-xl whitespace-nowrap'
+                            activeclass="active"
+                            to='/about-us'
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>
+                            About us
+                        </NavLink>
 
-                            </div>) : ''}
-                        </div>
+                        <NavLink
+                            className='nav-link text-lg md:text-xl whitespace-nowrap'
+                            activeclass="active"
+                            to='/work'
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>
+                            Our works
+                        </NavLink>
 
-                        <Link
+                        <NavLink
+                            className='nav-link text-lg md:text-xl'
+                            activeclass="active"
+                            to='/mission'
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>
+                            Mission
+                        </NavLink>
+
+                        <NavLink
+                            className='nav-link text-lg md:text-xl'
+                            activeclass="active"
+                            to='/vision'
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>
+                            Vision
+                        </NavLink>
+
+                        {/* <Link
                             className='nav-link text-lg md:text-xl'
                             activeclass="active"
                             to="blogs"
@@ -82,7 +114,7 @@ const Navbar = () => {
                             offset={-100}
                             duration={500}>
                             blogs
-                        </Link>
+                        </Link> */}
 
                         <NavLink
                             className='nav-link text-lg md:text-xl'
@@ -96,12 +128,12 @@ const Navbar = () => {
                         </NavLink>
 
                         <NavLink
-                            className='nav-link text-lg md:text-xl'
+                            className='nav-link text-lg md:text-xl whitespace-nowrap'
                             activeclass="active"
                             to="/registration"
                             onClick={handleScroll}
                         >
-                            Join
+                            Join us
                         </NavLink>
 
                         <Link

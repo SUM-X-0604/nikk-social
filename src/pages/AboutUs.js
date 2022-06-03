@@ -29,12 +29,17 @@ const AboutUs = () => {
                             <p>The main objects to be pursued by the company on its incorporation is to establish, set-up, maintain, erect, purchase, construct, renovate, manage, provide charitable organization for Health care and educational welfare activities, educational support to poor students or economically weaker section peoples in rural or urban sectors, and to provide educational support to poor students belongs to economically disadvantaged, child labourers, disabled, orphans, semi orphans, to open training camps and workshops for the development of arts, plays and culture and raise funds through subscriptions, donations, trade to fulfill the aims and objects, helping economically weaker people, medical support for poor peoples, provide basic needs of food, shelter, garments, free healthcare services, hospitals support, dispensaries, medical and welfare facilities, medical camps, blood donation, and medical assistance to all and undertake social welfare development activities and to carry out the aforesaid activities for charitable purposes and not for profit for all citizens irrespective of caste, religion and sex and apply profits, if any or other income in promoting the objectives of the company.</p>
                         </div>
                         {/* first paragraph end */}
+                    </div>
 
+
+                    <div className='pt-12 md:text-center' data-aos="fade-down">
+                        <h1 className='text-center py-4 capitalize text-xl sm:text-2xl md:text-4xl text-[#d49a35] font-sans font-semibold px-4'>
+                            Founders
+                        </h1>
                     </div>
 
 
                     {/* founders */}
-
                     <div className='pt-8 md:px-8 xl:px-16'>
                         <div className='py-4 flex flex-col sm:flex-row '>
                             <div className='py-4 px-4 '>
@@ -49,7 +54,6 @@ const AboutUs = () => {
                             </div>
                         </div>
                     </div>
-
 
                     {/* Founder Message start */}
 
