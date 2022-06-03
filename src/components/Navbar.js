@@ -52,7 +52,7 @@ const Navbar = () => {
                 </div>
 
                 <div>
-                    <div className={click ? 'list-group active ' : 'list-group'}>
+                    <div className={click ? 'list-group active ' : 'list-group'} onClick={handleClick}>
                         <NavLink
                             className='nav-link text-lg md:text-xl'
                             activeclass="active"
