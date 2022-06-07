@@ -17,7 +17,7 @@ const About = () => {
                         {/* headings */}
                         <div className='md:py-8 md:text-center' data-aos="fade-down">
                             <h1 className='py-2 capitalize text-sm md:text-xl text-[#d49a35] font-sans font-semibold px-4'>
-                                welcome to Nikk Social Welfare Foudation
+                                welcome to Nikk Social Welfare Foundation
                             </h1>
 
                             <p className='text-[#b0aa9c] px-4 text-2xl md:text-5xl md:leading-normal'>
@@ -26,7 +26,7 @@ const About = () => {
                         </div>
                         {/* text */}
                         <div className='text-[#aba8a8] px-4 py-4 leading-normal text-[16px] md:text-[22px]' data-aos="fade-up">
-                            <p>Nikk Social Welfare Foudation, a social development organization, is directly benefitting thousands of children and their families every year. We have several live welfare projects on education, healthcare, livelihood, and women's empowerment in all over Chhattigarh.</p>
+                            <p>Nikk Social Welfare Foundation, a social development organization, is directly benefitting thousands of children and their families every year. We have several live welfare projects on education, healthcare, livelihood, and women's empowerment in all over Chhattigarh.</p>
                             <br />
                             <p>Nikk Social aims to build an equitable relationship of strength, sustenance and dignity between the cities and villages using the under-utilized urban material as a tool to trigger development with dignity, across the country.</p>
                             <button className='my-4 text-lg text-gray-300 border-2 px-4 rounded-full py-2 font-mono bg-[#0A686E] hover:scale-110 transition duration-200 '>

@@ -54,29 +54,6 @@ const TestimonialData = () => {
             </div>
 
 
-            {/* <div className='py-4'>
-                <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--gRFMHqWs--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/1xwiaya5i7wweic3pz96.png" alt='' />
-                <div className="myCarousel">
-                    <h3>Sumit Verma</h3>
-
-                    <p>
-                        Nick Social Welfare Foundation is Umbrella in rain, Blanket in winter and Ice in summer. Abhilasha is a name that belongs to love, shelter and humanity.
-                    </p>
-                </div>
-            </div> */}
-
-            {/* <div className='py-4'>
-                <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--gRFMHqWs--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/1xwiaya5i7wweic3pz96.png" alt='' />
-                <div className="myCarousel">
-                    <h3>Sumit Verma</h3>
-
-                    <p>
-                        Nick Social Welfare Foundation believes that affection is greater than perfection. The organization obeys the rules that if and when were planted, nothing grew.
-                    </p>
-                </div>
-            </div> */}
-
-
         </Carousel>
     );
 }

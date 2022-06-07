@@ -36,7 +36,7 @@ const Navbar = () => {
     return (
         <div className={nav ? 'nav-container active ' : 'nav-container'}>
             <div className="navbar ">
-                <div className="logo flex flex-col justify-center items-left sm:mx-4 cursor-pointer " data-aos="fade-down">
+                <div className="logo flex flex-col justify-center items-left sm:mx-4 cursor-pointer" data-aos="fade-down">
                     <Link to="/">
                         <h1
                             className='text-2xl text-gray-400 font-bold sm:text-3xl'
